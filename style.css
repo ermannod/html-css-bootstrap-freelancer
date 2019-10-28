@@ -1,0 +1,111 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-color-w{
+  color: white;
+}
+
+/*** navbar ***/
+.navbar {
+  background-color: #2C3E50;
+}
+
+.navlink, .navbar-expand-lg .navbar-nav>li>a {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container{
+  padding: 8px 16px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color:#1abc9c;
+}
+
+.navlink{
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.navlink:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/*** end nabvar ***/
+
+/*** start ***/
+
+.start {
+  background-color: #1ABC9C;
+  height: 680px;
+  text-align: center;
+  margin-top:67px;
+  padding:
+}
+
+.start .container img{
+  width: 240px;
+}
+
+.start .container h1{
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.start .container p{
+  font-size: 24px;
+}
+.start .container{
+  padding: 108px 0;
+}
+
+.iconebox{
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line{
+  background-color: white;
+  height: 4px;
+  width: 112px;
+}
+
+.iconbox .line:first-child{
+  margin-right: 1rem;
+}
+
+.iconbox .line:last-child{
+  margin-left: 1rem;
+}
+
+.icone{
+  font-size: 32px;
+  margin: 0 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 16px;
+  }
+  header button.btn{
+    float: right;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #1ABC9C;
+    color: white;
+    font-weight: 900;
+    height: 50px;
+    text-transform: uppercase;
+  }
+
+}
